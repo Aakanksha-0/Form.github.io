@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Succesfully submited</title>
+    <style>
+       body{
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       .center{
+           position: absolute;
+           top: 120px;
+           position: absolute;
+           margin-left: 380px;
+           width: 600px;
+       }
+       .center-header{
+           padding: 25px 15px;
+           background: linear-gradient(90deg,#2f5ae6a6,#78478fc4); 
+           font-size: 30px;
+           color: aliceblue;
+           height: 20px;
+       }
+       .center-container{
+           text-align: center;
+           padding: 15px;
+           background-color: rgb(221, 218, 218) ;
+           color: black;
+           height: 300px;
+       }
+       .closebtn{
+           position: absolute;
+           top: 5px;
+           color: white;
+           font-size: 30px;
+           cursor: pointer;
+       }
+       .closebtn :hover{
+           color: lightgray;
+       }
+       #dismiss-popup-btn{
+           color: gray;
+           right: 50px;
+          width: 80px;
+          height: 30px;
+          color: black;
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="center">
+      <div class="center-header"><b>Succesfully</b></div>
+    <span class="closebtn" onlick="this.parentElement.style,display='none';"></span>
+    <div class="center-container">
+        <h2>Congratulations, Registration compleated Succesfully!!</h2>
+        <p>Please check your registered email for email verification</p>
+        <div class="dismiss-btn">
+            <button id="dismiss-popup-btn"><b>Dismiss </b></button>
+        </div>
+    </div>
+</body>
+</html>

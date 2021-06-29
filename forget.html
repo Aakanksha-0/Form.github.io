@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Reset Password</title>
+</head>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background: url('ui/backgroundpng.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+ }
+ .loginbox{
+    width: 600px;
+    height: 620px;
+    background: white;
+    background: linear-gradient(90deg,#2f5ae63d,#78478f27); 
+    box-shadow: 0 1em 2em 2px #c289dd;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 50px; 
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(2, 23, 41);
+ }
+ .loginbox input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.loginbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid rgb(34, 36, 37);
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: rgb(119, 94, 167);
+    font-size: 16px;
+}
+.loginbox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(34, 36, 37);
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color: rgb(119, 94, 167);
+    font-size: 16px;
+}
+
+.loginbox button[type="submit"]{
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 500px;
+    height: 37px;
+    background: linear-gradient(90deg,#2f59e6,#78478f);
+    color: rgb(0, 0, 2);
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+ }
+.loginbox button[type="submit"]:hover
+ {
+cursor: pointer;
+background: #9d6acc;
+color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(67, 164, 202);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 28px; 
+}
+
+</style>
+<body>
+    <div class="loginbox">
+    <h1>Reset Password</h1> <br><br><br> 
+    <form>
+        <p>Email ID :</p>
+        <input type="text" name="User Name" placeholder="Enter Username">
+        <p>New Password :</p>
+        <input type="password" name="Password" placeholder="Enter Password"><br>
+        <p>Confirm Password :</p>
+        <input type="password" name="Password" placeholder="Enter Password"><br>
+        <div class="inputBx"> 
+            <a href="file:///C:/Users/sidd/Desktop/my1stproject/Form.html" ><button type="submit" value="submit" name="submit" id="submit">Submit</a></button>
+        </div>
+            <br><br><br>     
+    </form>
+</body>
+</html>
